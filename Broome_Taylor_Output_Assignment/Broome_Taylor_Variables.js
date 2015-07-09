@@ -2,3 +2,5 @@
 
 var phrase = "These are my fish!"
 
+var fishTypes = 8;
+
