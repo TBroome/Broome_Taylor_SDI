@@ -6,3 +6,5 @@ var fishTypes = 8;
 
 var hasFish = true;
 
+var fishTypes = "goldfish"; "molly"; "gobby"; "tetra"; "red fin shark";
+
