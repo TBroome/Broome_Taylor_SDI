@@ -4,3 +4,5 @@ var phrase = "These are my fish!"
 
 var fishTypes = 8;
 
+var hasFish = true;
+
