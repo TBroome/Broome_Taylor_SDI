@@ -1,4 +1,6 @@
 //practice Prompts
 
-var userInput = prompt("Enter your year of birth");
-console.log(userInput);
+var width = prompt("Enter Width of the Rectangle");
+var height = prompt("Enter Height of the Rectangle");
+var area = width * height;
+console.log(area);
