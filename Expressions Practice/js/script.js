@@ -1,5 +1,6 @@
-//practice Age
+//practice mult and div
 
-var yearBorn = 1991;
-var age = 2015 - yearBorn;
-console.log(age)
+var width = 4;
+var height = 5;
+var area = width * height/2;
+console.log(area)
