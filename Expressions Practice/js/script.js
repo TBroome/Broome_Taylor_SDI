@@ -1,6 +1,7 @@
-//practice Prompts
+//practice strings
 
-var width = prompt("Enter Width of the Rectangle");
-var height = prompt("Enter Height of the Rectangle");
-var area = width * height;
-console.log(area);
+var firstName = "Taylor";
+var lastName = "Broome";
+var space = " ";
+var fullName = firstName + space + lastName;
+console.log(fullName);
