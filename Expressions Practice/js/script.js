@@ -1,7 +1,5 @@
-//practice strings
+//practice casting
 
-var firstName = "Taylor";
-var lastName = "Broome";
-var space = " ";
-var fullName = firstName + space + lastName;
-console.log(fullName);
+var stringVar = "6";
+var result = 7 + stringVar;
+console.log(result);
