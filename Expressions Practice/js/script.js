@@ -1,4 +1,9 @@
-//practice modulo
+//practice PEMDAS
 
-var remainder = 32 % 10;
-console.log(remainder);
+var quiz1 = 87;
+var quiz2 = 99;
+var quiz3 = 88;
+var quiz4 = 79;
+
+var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
+console.log(average)
