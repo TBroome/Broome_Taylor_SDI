@@ -13,5 +13,7 @@ alert("OK Now lets see if you can fight that boss yeah?"); //starts the new pros
 var average = [helm, chest, legs]; //array of previous var item levels to use for the average
 var total = average[0] * average[1] * average[2]; //the average is created this time by multiplying the arrays
 var iLvl = total/4; //we then divide the total by 4 for the item level
-alert("You can go kick some boss butt with an item level of " + iLvl + "!");
-console.log("Your item level is " + iLvl + ".");
+alert("You can go kick some boss butt with an item level of " + iLvl + "!"); //alert to display the item level to the user using var (iLvl)
+console.log("Your item level is " + iLvl + "."); //also will show the user their item level if they have console open
+
+//have a great day!
