@@ -11,6 +11,6 @@ console.log(average);
 
 alert("OK Now lets see if you can fight that boss yeah?");
 var average = [helm, chest, legs];
-var total = average[0] + average[1] + average[2];
-var iLvl = total/3;
-alert("You can go kick some boss butt with an item level of " + iLvl);
+var total = average[0] * average[1] * average[2];
+var iLvl = total/4;
+alert("You can go kick some boss butt with an item level of " + iLvl + "!");
