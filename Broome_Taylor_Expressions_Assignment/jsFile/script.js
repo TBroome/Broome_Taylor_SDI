@@ -1,4 +1,7 @@
-//Expressions Taylor Broome 7/16/2015
+//Expressions
+//Taylor Broome
+//7/16/2015
+//SDI
 
 alert("lets check that power level!"); //starting the process by letting you know what we will be doing
 var helm = prompt("Enter your helm item level here please. \nEnter between 30 and 40 please."); //first prompt for helm item level
