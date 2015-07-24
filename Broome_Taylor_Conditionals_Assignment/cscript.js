@@ -15,20 +15,20 @@ if(fishFood < numFish*days){                //first conditional to see if you ha
 }
 
 var goldfish = false;                       //to see if you do or do not have goldfish
-var food = "Use Goldfish Pellets";
-var mollies = true;
+var food = "Use Goldfish Pellets";          //shows the food var as a string value
+var mollies = true;                         //shows us that the mollie var is true
 
-if(goldfish){
-    console.log(food);
-}else if(mollies){
-    console.log("Use goldfish pellets and suplment vitamins.");
-}else{
-    console.log("Do not use goldfish pellets.");
+if(goldfish){                               //checks if you have any goldfish
+    console.log(food);                          //shows the printout variable of food
+}else if(mollies){                                      //then checks to see if you have Mollies
+    console.log(food + " and suplment vitamins.");      //shows what food to use if you do have mollies
+}else{                                                      //if both statements are flase then we move on to this var
+    console.log("Do not use goldfish pellets.");            //prints out the food to use here if no mollies or goldfish
 }
 
-var fish;
+var fish;                                                   //shows the fish var
 
-fish = (numFish < 10) ? "You need more fish!" : "You have all the fish!!";
+fish = (numFish < 10) ? "You need more fish!" : "You have all the fish!!";      //
 console.log(fish);
 
 var goldFish = prompt("How many goldfish to you have?");
