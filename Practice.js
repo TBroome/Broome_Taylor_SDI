@@ -7,3 +7,7 @@ myFamilyNames[2] = "Renee"
 
 console.log(myFamilyNames)
 
+
+//CASTING
+
+var

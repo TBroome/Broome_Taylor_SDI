@@ -8,11 +8,16 @@ var fishFood = prompt("Please enter the amount of food pellets you have here.");
 var numFish = prompt("Please enter the number of fish you have here.");     //prompting to get the number of fish owned
 var days = prompt("Please enter the number of days you need to feed your fish.");       //prompting to understand the number of days to feed fish
 
-if(fishFood < numFish*days){                //first conditional to see if you have more food then fish
+if(fishFood === ""){                            //makes sure you impute an amount for fishfood
+    fishFood = prompt("Please enter the amount of food pellets you have!!");        //Reprompts the user for imformation
+    console.log(fishFood);                               //prints out the amount of food owned
+}else if(fishFood < numFish*days){                //first conditional to see if you have more food then fish
     console.log("You need more food.");     //print out to show user if they need more food
 }else{                                      //if the above statement is false this is then displayed
     console.log("You have enough food.");   //print out to show if you DO have enough food
 }
+
+console.log(fishFood);                      //Prints out the amount of food you have
 
 var goldfish = false;                       //to see if you do or do not have goldfish
 var food = "Use Goldfish Pellets";          //shows the food var as a string value
@@ -33,12 +38,12 @@ console.log(fish);                                                              
 
 var goldFish = prompt("How many goldfish to you have?");                        //prompt to find the number of goldfish owned
 var tetras = prompt("How many tetras do you own?");                             //prompt to find the number of tetras owned
-var ciclids = false                                                             //shows that you do NOT own any ciclids (these things are mean and should never be mixed with other fish)
+var ciclids = prompt("How many ciclids do you own?");                                                             //shows that you do NOT own any ciclids (these things are mean and should never be mixed with other fish)
 
-if(goldFish > tetras || ciclids){                                               //checks if you have more goldfish then tetras OR if you own ciclids
-    console.log("Do not add any other fish! Ciclids are mean and should never be mixed with other fish");       //prints out if either of the vars are TRUE
+if(goldFish > tetras || ciclids > 0){                                               //checks if you have more goldfish then tetras OR if you own ciclids
+    console.log("Do not add any other fish! Ciclids are mean and should never be mixed with other fish and goldfish clutter a tank.");       //prints out if either of the vars are TRUE
 }else{                                                                          //shows if the previous vars are false
-    console.log("Go ahead and add more fish, just no ciclids!")                 //prints if all are false showing you can get more fish
+    console.log("Go ahead and add more fish, just no ciclids!");                 //prints if all are false showing you can get more fish
 }
 
 
