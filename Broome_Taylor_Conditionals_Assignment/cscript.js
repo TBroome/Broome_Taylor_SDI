@@ -28,17 +28,17 @@ if(goldfish){                               //checks if you have any goldfish
 
 var fish;                                                   //shows the fish var
 
-fish = (numFish < 10) ? "You need more fish!" : "You have all the fish!!";      //
-console.log(fish);
+fish = (numFish < 10) ? "You need more fish!" : "You have all the fish!!";      //Ternary for the var fish to show if true or not (replaces the if/else statement
+console.log(fish);                                                              //prints out the fish Var if true or false
 
-var goldFish = prompt("How many goldfish to you have?");
-var tetras = prompt("How many tetras do you own?");
-var ciclids = false
+var goldFish = prompt("How many goldfish to you have?");                        //prompt to find the number of goldfish owned
+var tetras = prompt("How many tetras do you own?");                             //prompt to find the number of tetras owned
+var ciclids = false                                                             //shows that you do NOT own any ciclids (these things are mean and should never be mixed with other fish)
 
-if(goldFish > tetras || ciclids){
-    console.log("Do not add any other fish!");
-}else{
-    console.log("Go ahead and add more fish, just no ciclids!")
+if(goldFish > tetras || ciclids){                                               //checks if you have more goldfish then tetras OR if you own ciclids
+    console.log("Do not add any other fish! Ciclids are mean and should never be mixed with other fish");       //prints out if either of the vars are TRUE
+}else{                                                                          //shows if the previous vars are false
+    console.log("Go ahead and add more fish, just no ciclids!")                 //prints if all are false showing you can get more fish
 }
 
 
