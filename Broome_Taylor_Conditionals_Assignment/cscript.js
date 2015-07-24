@@ -30,3 +30,15 @@ var fish;
 
 fish = (numFish < 10) ? "You need more fish!" : "You have all the fish!!";
 console.log(fish);
+
+var goldFish = prompt("How many goldfish to you have?");
+var tetras = prompt("How many tetras do you own?");
+var ciclids = false
+
+if(goldFish > tetras || ciclids){
+    console.log("Do not add any other fish!");
+}else{
+    console.log("Go ahead and add more fish, just no ciclids!")
+}
+
+
