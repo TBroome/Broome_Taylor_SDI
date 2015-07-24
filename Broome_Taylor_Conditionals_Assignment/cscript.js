@@ -26,3 +26,7 @@ if(goldfish){
     console.log("Do not use goldfish pellets.");
 }
 
+var fish;
+
+fish = (numFish < 10) ? "You need more fish!" : "You have all the fish!!";
+console.log(fish);
