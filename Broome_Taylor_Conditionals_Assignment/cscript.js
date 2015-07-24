@@ -2,7 +2,7 @@
 //SDI
 //7/23/2015
 
-//sorry this is late I realy did not get a chance to work ok it
+//sorry this is late I really did not get a chance to work ok it
 
 var fishFood = prompt("Please enter the amount of food pellets you have here.");
 var numFish = prompt("Please enter the number of fish you have here.");
