@@ -38,9 +38,9 @@ console.log(fish);                                                              
 
 var goldFish = prompt("How many goldfish to you have?");                        //prompt to find the number of goldfish owned
 var tetras = prompt("How many tetras do you own?");                             //prompt to find the number of tetras owned
-var ciclids = prompt("How many ciclids do you own?");                                                             //shows that you do NOT own any ciclids (these things are mean and should never be mixed with other fish)
+var cichlids = prompt("How many ciclids do you own?");                                                             //shows that you do NOT own any ciclids (these things are mean and should never be mixed with other fish)
 
-if(goldFish > tetras || ciclids > 0){                                               //checks if you have more goldfish then tetras OR if you own ciclids
+if(goldFish > tetras || cichlids > 0){                                               //checks if you have more goldfish then tetras OR if you own ciclids
     console.log("Do not add any other fish! Ciclids are mean and should never be mixed with other fish and goldfish clutter a tank.");       //prints out if either of the vars are TRUE
 }else{                                                                          //shows if the previous vars are false
     console.log("Go ahead and add more fish, just no ciclids!");                 //prints if all are false showing you can get more fish
