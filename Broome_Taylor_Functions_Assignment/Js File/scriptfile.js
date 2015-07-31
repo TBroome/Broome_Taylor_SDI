@@ -3,21 +3,22 @@
 
 console.log("Test");
 
-var yes = prompt("Would you like the Powerball numbers?");
+var yes = confirm("Would you like the Powerball numbers?");
 
-if(yes){
+if(yes == true){
     console.log(numbers)
 }else{
-    console.log(lotto)
+    console.log(fLotto)
 }
 
+var numbers = 
 
-function powerball(a, b, c, d, e, f){
-    var numbers = (a + "," + b + "," + c + "," + d + "," + e + "," + f + ".")
-    return numbers;  //function spitting info out
+function theNumbers(a, b, c, d, e, f){
+    var fLotto = (a + "," + b + "," + c + "," + d + "," + e + "," + f + ".");
+    return fLotto;  //function spitting info out
 }
 
-console.log(numbers);
+console.log(fLotto);
 
 a(3);
 b(10);
