@@ -13,7 +13,7 @@ if(yes){
 
 
 function powerball(a, b, c, d, e, f){
-    var numbers = (a "," b "," c "," d "," e "," f ".")
+    var numbers = (a + "," + b + "," + c + "," + d + "," + e + "," + f + ".")
     return numbers;  //function spitting info out
 }
 
