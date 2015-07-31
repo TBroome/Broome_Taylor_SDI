@@ -3,6 +3,11 @@
 
 console.log("Test");
 
+var fLotto = theNumbers(3, 10, 27, 35, 42, 53);
+
+
+
+
 var yes = confirm("Would you like the Powerball numbers?");
 
 if(yes == true){
@@ -11,18 +16,12 @@ if(yes == true){
     console.log(fLotto)
 }
 
-var numbers = 
+
+var fLotto = theNumbers(3, 10, 27, 35, 42, 53);
+
 
 function theNumbers(a, b, c, d, e, f){
     var fLotto = (a + "," + b + "," + c + "," + d + "," + e + "," + f + ".");
     return fLotto;  //function spitting info out
 }
 
-console.log(fLotto);
-
-a(3);
-b(10);
-c(27);
-d(35);
-e(42);
-f(53);
