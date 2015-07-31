@@ -1,14 +1,28 @@
-//** Generate 10 random integers in the range 0..99. */
-Random; randomGenerator = new Random();
-    for (int idx = 1; idx <= 10; ++idx){
-    int randomInt = randomGenerator.nextInt(100);
-    log("Generated : " + randomInt);
+/**
+ * Created by Avariea on 7/30/15.
+ */
+
+//while loops
+
+var b = 10;  //sets up the index
+
+while (b > 0){          //checks the condition
+    console.log(b + " kegs on the wall.");
+    b--;            //increments or decrements the index
 }
 
-log("Done.");
-}
+//Do While Loops
 
-private static void log(String aMessage){
-    System.out.println(aMessage);
+var c = 10;
+
+do{
+    console.log(c + " kegs on the wall.");
+    c--;
 }
+while(c > 0);
+
+//for loop
+
+for (var i = 10; i > 0; i--){
+    console.log(i + " kegs on the wall.")
 }
