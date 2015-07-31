@@ -4,6 +4,13 @@
 
 //console.log("Test");          //intended to test the connection to the html file
 
+var age = prompt("Enter your age please.");             //asks the user for their age
+
+while (age < 18){                                                       //confirms the age
+    age = alert("You must be 18 or older to play the lotto!");          //if under 18 this prompt shows
+    age = prompt("Enter your age please!");                             //then asks for age again
+}
+
 var fLotto = theNumbers(3, 10, 27, 35, 42, 53);     //redefines the function return so that we can see it
 
 var numbers = ("Your lucky Powerball numbers are 9, 18, 29, 36, 46 powerball 35.");        //var for the powerball numbers
@@ -21,4 +28,3 @@ function theNumbers(a, b, c, d, e, f){          //function starts here with the 
     var fLotto = ("Your lucky numbers are " + a + "," + b + "," + c + "," + d + "," + e + "," + f + ".");       //combines the var into a string value
     return fLotto;  //function spitting info out
 }
-
